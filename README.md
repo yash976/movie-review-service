@@ -25,7 +25,17 @@ A Spring Boot microservice for managing movies and reviews.
 - POST /reviews
 - GET /reviews/movie/{movieId}
 
-## ▶️ Run Locally
+## ▶️ How to Run
+
+### Prerequisites
+- Java 17+
+- Maven
+- MySQL running
+
+### Steps
 
 ```bash
+git clone https://github.com/yourusername/movie-review-service.git
+cd movie-review-service
+mvn clean install
 mvn spring-boot:run
